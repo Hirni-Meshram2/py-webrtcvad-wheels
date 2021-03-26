@@ -25,7 +25,7 @@ install:
 script:
   - python3 setup.py install
   # FIXME
-  # - pytest
+   - pytest
 
 stages:
   - test
