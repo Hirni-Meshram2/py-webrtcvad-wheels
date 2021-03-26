@@ -6,8 +6,11 @@
 # distribution is also created.
 
 language: python
+arch:
+  - amd64
+  - arm64
 python:
-  - 3.7
+  - 3.6
   - 3.8
 
 before_install:
